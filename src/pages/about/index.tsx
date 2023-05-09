@@ -2,6 +2,7 @@ import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../../component/Layout";
 import Aboutme from "./aboutme";
+import Skills from "./skill";
 
 export default function about() {
   return (
@@ -11,6 +12,7 @@ export default function about() {
       </Head>
       <Layout>
         <Aboutme />
+        <Skills />
       </Layout>
     </div>
   );

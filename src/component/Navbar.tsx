@@ -23,7 +23,6 @@ export default function navbar() {
               <NavDropdown.Item href="projects/">網頁作品集</NavDropdown.Item>
               <NavDropdown.Item href="projects/">區塊鏈作品集</NavDropdown.Item>
               <NavDropdown.Item href="projects/">其他作品集</NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link href="contact/">聯絡Bryan</Nav.Link>
             <Nav.Link href="#home">管理員登入</Nav.Link>
