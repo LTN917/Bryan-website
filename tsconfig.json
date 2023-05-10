@@ -22,7 +22,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/component/Footer.tsx"
+    "src/component/Footer.tsx",
+    "src/pages/projects/index.js",
+    "lib/post.js"
   ],
   "exclude": ["node_modules"]
 }
