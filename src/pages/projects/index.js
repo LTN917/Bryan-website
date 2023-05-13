@@ -2,6 +2,8 @@ import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../../component/Layout";
 import { getSortedPostsData } from "../../../lib/posts";
+import Link from "next/link";
+import Date from "../../component/date";
 
 //server端在page build up 期間先抓取好外部資料
 export async function getStaticProps() {
@@ -26,11 +28,11 @@ export default function Projects({ allPostsData }) {
           <ul>
             {allPostsData.map(({ id, date, title }) => (
               <li key={id}>
-                {title}
+                <Link href={`/posts/${id}`}>{title}</Link>
                 <br />
-                {id}
-                <br />
-                {date}
+                <small>
+                  <Date dateString={date} />
+                </small>
               </li>
             ))}
           </ul>
