@@ -1,7 +1,7 @@
-import Layout from "../../component/Layout";
-import { getAllPostIds, getPostData } from "../../../lib/posts";
+import Layout from "../component/Layout";
+import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
-import Date from "../../component/date";
+import Date from "../component/date";
 
 // SSG
 export async function getStaticProps({ params }) {
@@ -34,7 +34,7 @@ export default function Post({ postData }) {
       <br />
       {postData.id}
       <br />
-      <Date dateString={postData.date} />
+      {post.date ? <Date dateString={post.date} /> : "No date"}
       <br />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
