@@ -36,8 +36,9 @@ export default function contact() {
           <title>聯絡Bryan</title>
         </Head>
         <h1>聯絡Bryan</h1>
-        {items.map((item) => (
+        {items.map((item, index) => (
           <Contactitem
+            key={index}
             title={item.title}
             content={item.content}
             link={item.link}
