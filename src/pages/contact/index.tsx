@@ -9,7 +9,7 @@ export default function contact() {
         <Head>
           <title>聯絡Bryan</title>
         </Head>
-        <h1>this is contact page!</h1>
+        <h1>this is a contact page!</h1>
       </div>
     </Layout>
   );
