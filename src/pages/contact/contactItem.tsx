@@ -8,9 +8,15 @@ export default function contactItem(props: any) {
       <Card.Header>{props.title}</Card.Header>
       <Card.Body>
         <Card.Text>{props.content} </Card.Text>
-        {/* <Link href={props.link}>
-          <Button variant="primary">Visit</Button>
-        </Link> */}
+        {props.link ? (
+          <Link href={props.link}>
+            <Button variant="primary">Visit</Button>
+          </Link>
+        ) : (
+          <Button variant="primary" disabled>
+            Visit
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );
