@@ -23,7 +23,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/component/Footer.tsx",
-    "src/pages/projects/index.js",
+    "src/pages/projects/index.tsx",
     "lib/post.js",
     "src/component/date.tsx"
   ],
