@@ -25,6 +25,8 @@ export default function Homepage() {
           <Link href="about/">關於Bryan</Link>
         </button>
       </div>
+      <br />
+      <br />
     </div>
   );
 }
