@@ -25,7 +25,6 @@ export default function navbar() {
               <NavDropdown.Item href="projects/">其他作品集</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="contact/">聯絡Bryan</Nav.Link>
-            <Nav.Link href="#home">管理員登入</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

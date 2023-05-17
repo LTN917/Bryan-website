@@ -12,11 +12,8 @@ export default function Projects() {
         <Head>
           <title>專案作品</title>
         </Head>
-        <h1>Web Project</h1>
         <Web />
-        <h1>BlockChain Project</h1>
         <Blockchain />
-        <h1>Other Project</h1>
         <Others />
       </div>
       <br /> <br /> <br />

@@ -11,20 +11,13 @@ import { TbSquareLetterC } from "react-icons/tb";
 import { VscAccount } from "react-icons/vsc";
 
 export default function Footer() {
-  const containerStyle: React.CSSProperties = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
   return (
     <Navbar fixed="bottom" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/contact">
           <VscAccount />
         </Navbar.Brand>
-        <Nav className="me-auto" style={containerStyle}>
+        <Nav>
           <Nav.Link href="https://www.facebook.com/profile.php?id=100006097394081&sk=about">
             <BsFacebook />
           </Nav.Link>
