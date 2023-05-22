@@ -1,0 +1,50 @@
+.aboutme {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  .abountme_text {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin: 1rem;
+      font-size: 3rem;
+    }
+    p {
+      margin: 1rem;
+      font-size: 1.25rem;
+    }
+  }
+  .aboutme_photo {
+  }
+}
+
+.introBox {
+  margin: 1rem;
+  h1 {
+    margin: 1rem;
+    font-size: 3rem;
+  }
+  tr {
+    font-size: 1rem;
+  }
+}
+
+.skill {
+  margin: 1rem;
+  h1 {
+    margin: 1rem;
+    font-size: 3rem;
+  }
+  tr {
+    th {
+      font-size: 1.25rem;
+    }
+    td {
+      font-size: 1rem;
+      .icons {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}

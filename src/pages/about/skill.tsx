@@ -17,10 +17,11 @@ import {
   SiKubernetes,
   SiPython,
 } from "react-icons/si";
+import styles from "./styles.module.scss";
 
 export default function Skills() {
   return (
-    <div>
+    <div className={styles.skill}>
       <h1>技能</h1>
       <Table responsive="sm">
         <thead>
@@ -36,7 +37,7 @@ export default function Skills() {
           <tr>
             <td>1</td>
             <td>網頁前端</td>
-            <td>
+            <td className={styles.icons}>
               <BsFiletypeHtml />
               <BsFiletypeCss />
               <IoLogoJavascript />
@@ -51,7 +52,7 @@ export default function Skills() {
           <tr>
             <td>2</td>
             <td>網頁全端</td>
-            <td>
+            <td className={styles.icons}>
               <IoLogoJavascript />
               <IoLogoNodejs />
               <SiNextdotjs />
@@ -65,7 +66,7 @@ export default function Skills() {
           <tr>
             <td>3</td>
             <td>資料庫串聯</td>
-            <td>
+            <td className={styles.icons}>
               <SiMongodb />
               <SiMysql />
             </td>
@@ -91,7 +92,7 @@ export default function Skills() {
           <tr>
             <td>1</td>
             <td>Web3應用</td>
-            <td>
+            <td className={styles.icons}>
               <IoLogoJavascript />
               <SiNextdotjs />
               <SiEthereum />
@@ -106,7 +107,7 @@ export default function Skills() {
           <tr>
             <td>2</td>
             <td>DeFi應用</td>
-            <td>
+            <td className={styles.icons}>
               <SiEthereum />
               <SiSolidity />
               <SiHiveBlockchain />
@@ -132,7 +133,7 @@ export default function Skills() {
           <tr>
             <td>1</td>
             <td>版本控制</td>
-            <td>
+            <td className={styles.icons}>
               <BsGithub />
               <BsGit />
               <SiVercel />
@@ -146,7 +147,7 @@ export default function Skills() {
           <tr>
             <td>2</td>
             <td>容器技術</td>
-            <td>
+            <td className={styles.icons}>
               <SiDocker />
               <SiKubernetes />
             </td>
@@ -179,7 +180,7 @@ export default function Skills() {
           <tr>
             <td>1</td>
             <td>Unity遊戲開發</td>
-            <td>
+            <td className={styles.icons}>
               <FaUnity />
               C#
             </td>

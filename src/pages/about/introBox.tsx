@@ -1,10 +1,11 @@
 //https://react-bootstrap.github.io/components/table/
 
 import Table from "react-bootstrap/Table";
+import styles from "./styles.module.scss";
 
 export default function introBox() {
   return (
-    <div>
+    <div className={styles.introBox}>
       <h1>簡介</h1>
       <Table striped bordered hover variant="dark">
         <tbody>
