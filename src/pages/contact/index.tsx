@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../../component/Layout";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contactitem from "./contactItem";
+import styles from "./styles.module.scss";
 
 export default function contact() {
   let items = [
@@ -35,7 +36,7 @@ export default function contact() {
         <Head>
           <title>聯絡Bryan</title>
         </Head>
-        <h1>聯絡Bryan</h1>
+        <h1 className={styles.title}>聯絡Bryan</h1>
         {items.map((item, index) => (
           <Contactitem
             key={index}
