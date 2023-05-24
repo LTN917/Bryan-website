@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 
 export default function Home() {
   return (
-    <div className={styles.bg}>
+    <div>
       <Head>
         <title>Byran Website</title>
         <meta charSet="utf-8" />

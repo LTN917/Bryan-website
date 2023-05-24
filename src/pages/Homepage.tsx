@@ -18,9 +18,9 @@ export default function Homepage() {
       </div>
       <Image
         className={styles.homepage_photo}
-        src="/homepage.png"
+        src="/homepageShot.png"
         height={100}
-        width={530}
+        width={600}
         alt="homepage graph"
       />
       <br />

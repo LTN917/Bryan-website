@@ -1,0 +1,63 @@
+.title {
+  margin: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.boxes {
+  margin: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.boxes .part1 {
+  flex: 3;
+}
+.boxes .part2 {
+  flex: 1;
+}
+.boxes .part3 {
+  flex: 1;
+}
+.boxes .card {
+  border: 0.15rem solid black;
+}
+.boxes .card .cardTitle1 {
+  font-size: 1.5rem;
+  background-color: darkcyan;
+  border-radius: 5px;
+  color: white;
+}
+.boxes .card .cardTitle2 {
+  font-size: 1.5rem;
+  background-color: rgb(165, 119, 50);
+  border-radius: 5px;
+  color: white;
+}
+.boxes .card .cardTitle3 {
+  font-size: 1.5rem;
+  background-color: rgb(153, 48, 144);
+  border-radius: 5px;
+  color: white;
+}
+.boxes .card .cardBtn {
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxes > * {
+    margin: 0.5rem;
+  }
+}/*# sourceMappingURL=styles.module.css.map */

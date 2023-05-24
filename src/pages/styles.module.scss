@@ -3,12 +3,14 @@
   flex-direction: row;
 
   .homepage_info {
+    margin: 3rem;
     flex: 3;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center; // 水平居中
     align-items: center; // 垂直居中
+    text-align: center;
     h1 {
       font-size: 3rem;
       margin: 1rem;
@@ -21,7 +23,7 @@
       margin: 1rem;
       padding: 0.5rem;
       border-radius: 5%;
-      background-color: black;
+      background-color: rgb(38, 38, 38);
       color: white;
       :hover {
         color: gold;
@@ -31,12 +33,24 @@
 
   .homepage_photo {
     flex: 2;
-    position: relative;
-    top: -20rem;
   }
 }
 
 .bg {
   color: white;
   background-color: rgb(65, 64, 64);
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .homepage_info {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
 }

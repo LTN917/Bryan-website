@@ -1,0 +1,52 @@
+.homepage_content {
+  display: flex;
+  flex-direction: row;
+}
+.homepage_content .homepage_info {
+  margin: 3rem;
+  flex: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.homepage_content .homepage_info h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+.homepage_content .homepage_info p {
+  margin: 1rem;
+  font-size: 1rem;
+}
+.homepage_content .homepage_info button {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5%;
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+.homepage_content .homepage_info button :hover {
+  color: gold;
+}
+.homepage_content .homepage_photo {
+  flex: 2;
+}
+
+.bg {
+  color: white;
+  background-color: rgb(65, 64, 64);
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homepage_content .homepage_info h1 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=styles.module.css.map */

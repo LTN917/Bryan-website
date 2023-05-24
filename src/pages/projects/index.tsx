@@ -4,6 +4,7 @@ import Layout from "../../component/Layout";
 import Web from "./web";
 import Blockchain from "./blockchain";
 import Others from "./others";
+import styles from "./styles.module.scss";
 
 export default function Projects() {
   return (

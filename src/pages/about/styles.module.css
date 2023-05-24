@@ -1,0 +1,128 @@
+.aboutme {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.aboutme .abountme_text {
+  display: flex;
+  flex-direction: column;
+}
+.aboutme .abountme_text h1 {
+  background-color: rgb(73, 83, 80);
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.aboutme .abountme_text p {
+  margin: 1rem;
+  font-size: 1.25rem;
+}
+
+.introBox {
+  margin: 1rem;
+}
+.introBox h1 {
+  background-color: rgb(73, 83, 80);
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.introBox tr {
+  font-size: 1rem;
+}
+
+.skill {
+  margin: 1rem;
+}
+.skill h1 {
+  background-color: rgb(73, 83, 80);
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.skill tr {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.skill tr th:first-of-type {
+  margin: 0.5rem;
+  background-color: rgb(28, 162, 172);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
+.skill tr :nth-child(1) {
+  margin: 0.5rem;
+  flex: 1;
+}
+.skill tr :nth-child(2) {
+  margin: 0.5rem;
+  flex: 1;
+}
+.skill tr :nth-child(3) {
+  margin: 0.5rem;
+  flex: 1;
+}
+.skill tr :nth-child(4) {
+  margin: 0.5rem;
+  flex: 4;
+}
+.skill tr :nth-child(5) {
+  margin: 0.5rem;
+  flex: 1.75;
+}
+.skill tr th {
+  font-size: 1.25rem;
+}
+.skill tr td {
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons > * {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 850px) {
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutme_photo {
+    height: 80%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .skill thead tr {
+    display: none;
+  }
+  .skill tbody tr {
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill tbody tr :nth-child(1) {
+    display: none;
+  }
+  .skill tbody tr :nth-child(2) {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=styles.module.css.map */
