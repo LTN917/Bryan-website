@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export default function OtherProject() {
   return (
-    <>
+    <div id="others">
       <h1 className={styles.title}>Other Project</h1>
       <div className={styles.boxes}>
         <Card
@@ -73,6 +73,6 @@ export default function OtherProject() {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   );
 }

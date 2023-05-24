@@ -20,9 +20,15 @@ export default function navbar() {
             <Nav.Link href="/">首頁</Nav.Link>
             <Nav.Link href="about/">關於Bryan</Nav.Link>
             <NavDropdown title="專案作品" id="basic-nav-dropdown">
-              <NavDropdown.Item href="projects/">網頁作品集</NavDropdown.Item>
-              <NavDropdown.Item href="projects/">區塊鏈作品集</NavDropdown.Item>
-              <NavDropdown.Item href="projects/">其他作品集</NavDropdown.Item>
+              <NavDropdown.Item href="projects/#web">
+                網頁作品集
+              </NavDropdown.Item>
+              <NavDropdown.Item href="projects/#blockchain">
+                區塊鏈作品集
+              </NavDropdown.Item>
+              <NavDropdown.Item href="projects/#others">
+                其他作品集
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="contact/">聯絡Bryan</Nav.Link>
           </Nav>

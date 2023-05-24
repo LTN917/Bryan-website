@@ -11,7 +11,10 @@ export default function introBox() {
         <tbody>
           <tr>
             <td>學歷</td>
-            <td>國立中正大學 資訊管理學系 國立政治大學 資訊管理所 - 科技組</td>
+            <td>
+              國立中正大學 資訊管理學系
+              <br /> 國立政治大學 資訊管理所 - 科技組
+            </td>
           </tr>
           <tr>
             <td>競賽</td>
@@ -22,7 +25,10 @@ export default function introBox() {
           </tr>
           <tr>
             <td>語言</td>
-            <td colSpan={2}>TOIEC : 790 Listening : 395 Reading : 395</td>
+            <td colSpan={2}>
+              TOIEC : 790 <br /> Listening : 395 <br />
+              Reading : 395
+            </td>
           </tr>
         </tbody>
       </Table>

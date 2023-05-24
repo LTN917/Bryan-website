@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export default function BlockchainProject() {
   return (
-    <>
+    <div id="blockchain">
       <h1 className={styles.title}>BlockChain Project</h1>
       <div className={styles.boxes}>
         <Card
@@ -58,6 +58,6 @@ export default function BlockchainProject() {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   );
 }

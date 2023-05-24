@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export default function WebProject() {
   return (
-    <>
+    <div id="web">
       <h1 className={styles.title}>Web Project</h1>
       <div className={styles.boxes}>
         <Card
@@ -82,6 +82,6 @@ export default function WebProject() {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   );
 }

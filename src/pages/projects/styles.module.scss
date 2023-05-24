@@ -53,3 +53,17 @@
     }
   }
 }
+
+//RWD
+
+@media screen and (max-width: 900px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > * {
+      margin: 0.5rem;
+    }
+  }
+}

@@ -6,8 +6,12 @@
     display: flex;
     flex-direction: column;
     h1 {
+      background-color: rgb(73, 83, 80);
+      color: white;
       margin: 1rem;
       font-size: 3rem;
+      text-align: center;
+      border-radius: 10px;
     }
     p {
       margin: 1rem;
@@ -19,8 +23,12 @@
 .introBox {
   margin: 1rem;
   h1 {
+    background-color: rgb(73, 83, 80);
+    color: white;
     margin: 1rem;
     font-size: 3rem;
+    text-align: center;
+    border-radius: 10px;
   }
   tr {
     font-size: 1rem;
@@ -30,8 +38,12 @@
 .skill {
   margin: 1rem;
   h1 {
+    background-color: rgb(73, 83, 80);
+    color: white;
     margin: 1rem;
     font-size: 3rem;
+    text-align: center;
+    border-radius: 10px;
   }
   tr {
     display: flex;
@@ -40,7 +52,7 @@
 
     th:first-of-type {
       margin: 0.5rem;
-      background-color: cadetblue;
+      background-color: rgb(28, 162, 172);
       color: white;
       font-size: 1.5rem;
       padding: 0.25rem;
@@ -82,5 +94,44 @@
   justify-content: center;
   > * {
     font-size: 1.25rem;
+  }
+}
+
+//RWD
+
+@media screen and (max-width: 850px) {
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutme_photo {
+    height: 80%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .skill {
+    thead {
+      tr {
+        display: none;
+      }
+    }
+    tbody {
+      tr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        :nth-child(1) {
+          display: none;
+        }
+        :nth-child(2) {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }
